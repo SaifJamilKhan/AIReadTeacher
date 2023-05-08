@@ -14,6 +14,7 @@
 		761B0D712A00997500719085 /* AiLiteracyTeacherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761B0D702A00997500719085 /* AiLiteracyTeacherTests.swift */; };
 		761B0D7B2A00997500719085 /* AiLiteracyTeacherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761B0D7A2A00997500719085 /* AiLiteracyTeacherUITests.swift */; };
 		761B0D7D2A00997500719085 /* AiLiteracyTeacherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761B0D7C2A00997500719085 /* AiLiteracyTeacherUITestsLaunchTests.swift */; };
+		761B0D8A2A088C4C00719085 /* ReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761B0D892A088C4C00719085 /* ReadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		761B0D762A00997500719085 /* AiLiteracyTeacherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AiLiteracyTeacherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		761B0D7A2A00997500719085 /* AiLiteracyTeacherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiLiteracyTeacherUITests.swift; sourceTree = "<group>"; };
 		761B0D7C2A00997500719085 /* AiLiteracyTeacherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiLiteracyTeacherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		761B0D892A088C4C00719085 /* ReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				761B0D612A00997200719085 /* ContentView.swift */,
 				761B0D632A00997500719085 /* Assets.xcassets */,
 				761B0D652A00997500719085 /* Preview Content */,
+				761B0D892A088C4C00719085 /* ReadingView.swift */,
 			);
 			path = AiLiteracyTeacher;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				761B0D8A2A088C4C00719085 /* ReadingView.swift in Sources */,
 				761B0D622A00997200719085 /* ContentView.swift in Sources */,
 				761B0D602A00997200719085 /* AiLiteracyTeacherApp.swift in Sources */,
 			);

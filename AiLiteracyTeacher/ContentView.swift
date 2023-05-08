@@ -7,10 +7,30 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+ 
+    @State var showReadingView: Bool = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            if showReadingView {
+               ReadingView()
+           } else {
+               VStack {
+                   Image("BoyWalking")
+                   Text("Create a story about a space girl in ")
+                       .padding()
+                   Text("Space girl is brave funny and smart ")
+                       .padding()
+                   Button("Create") {
+                        self.showReadingView = true
+                   }
+               }
+           }
+        }
+
+        
     }
 }
 
