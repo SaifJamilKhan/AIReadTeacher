@@ -10,13 +10,13 @@
 		4718F8A82A1324E100A00592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4718F8A72A1324E100A00592 /* AppDelegate.swift */; };
 		4718F8AA2A1324E100A00592 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4718F8A92A1324E100A00592 /* SceneDelegate.swift */; };
 		4718F8AC2A1324E100A00592 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4718F8AB2A1324E100A00592 /* ViewController.swift */; };
-		4718F8AF2A1324E100A00592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4718F8AD2A1324E100A00592 /* Main.storyboard */; };
 		4718F8B22A1324E100A00592 /* AILiteracyTeacher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4718F8B02A1324E100A00592 /* AILiteracyTeacher.xcdatamodeld */; };
 		4718F8B42A1324E300A00592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4718F8B32A1324E300A00592 /* Assets.xcassets */; };
 		4718F8B72A1324E300A00592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4718F8B52A1324E300A00592 /* LaunchScreen.storyboard */; };
 		4718F8C22A1324E300A00592 /* AILiteracyTeacherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4718F8C12A1324E300A00592 /* AILiteracyTeacherTests.swift */; };
 		4718F8CC2A1324E300A00592 /* AILiteracyTeacherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4718F8CB2A1324E300A00592 /* AILiteracyTeacherUITests.swift */; };
 		4718F8CE2A1324E300A00592 /* AILiteracyTeacherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4718F8CD2A1324E300A00592 /* AILiteracyTeacherUITestsLaunchTests.swift */; };
+		4718F8DB2A13288100A00592 /* WordSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4718F8DA2A13288100A00592 /* WordSelectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		4718F8A72A1324E100A00592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4718F8A92A1324E100A00592 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4718F8AB2A1324E100A00592 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4718F8AE2A1324E100A00592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4718F8B12A1324E100A00592 /* AILiteracyTeacher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AILiteracyTeacher.xcdatamodel; sourceTree = "<group>"; };
 		4718F8B32A1324E300A00592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4718F8B62A1324E300A00592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		4718F8C72A1324E300A00592 /* AILiteracyTeacherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AILiteracyTeacherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4718F8CB2A1324E300A00592 /* AILiteracyTeacherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AILiteracyTeacherUITests.swift; sourceTree = "<group>"; };
 		4718F8CD2A1324E300A00592 /* AILiteracyTeacherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AILiteracyTeacherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4718F8DA2A13288100A00592 /* WordSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSelectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +104,11 @@
 				4718F8A72A1324E100A00592 /* AppDelegate.swift */,
 				4718F8A92A1324E100A00592 /* SceneDelegate.swift */,
 				4718F8AB2A1324E100A00592 /* ViewController.swift */,
-				4718F8AD2A1324E100A00592 /* Main.storyboard */,
 				4718F8B32A1324E300A00592 /* Assets.xcassets */,
 				4718F8B52A1324E300A00592 /* LaunchScreen.storyboard */,
 				4718F8B82A1324E300A00592 /* Info.plist */,
 				4718F8B02A1324E100A00592 /* AILiteracyTeacher.xcdatamodeld */,
+				4718F8DA2A13288100A00592 /* WordSelectionView.swift */,
 			);
 			path = AILiteracyTeacher;
 			sourceTree = "<group>";
@@ -236,7 +236,6 @@
 			files = (
 				4718F8B72A1324E300A00592 /* LaunchScreen.storyboard in Resources */,
 				4718F8B42A1324E300A00592 /* Assets.xcassets in Resources */,
-				4718F8AF2A1324E100A00592 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4718F8DB2A13288100A00592 /* WordSelectionView.swift in Sources */,
 				4718F8AC2A1324E100A00592 /* ViewController.swift in Sources */,
 				4718F8B22A1324E100A00592 /* AILiteracyTeacher.xcdatamodeld in Sources */,
 				4718F8A82A1324E100A00592 /* AppDelegate.swift in Sources */,
@@ -301,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4718F8AD2A1324E100A00592 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4718F8AE2A1324E100A00592 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4718F8B52A1324E300A00592 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -448,7 +440,6 @@
 				INFOPLIST_FILE = AILiteracyTeacher/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,7 +467,6 @@
 				INFOPLIST_FILE = AILiteracyTeacher/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
